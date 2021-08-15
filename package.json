@@ -1,0 +1,30 @@
+{
+  "name": "fonico-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/bin/index.js",
+  "scripts": {
+    "start": "node ./src/bin/www",
+    "dev": "NODE_ENV=development DEBUG=fonico-api:* nodemon ./src/bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucusita/fonico-server.git"
+  },
+  "author": "Marcelo Roldan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ucusita/fonico-server/issues"
+  },
+  "homepage": "https://github.com/ucusita/fonico-server#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "joi": "^17.4.2",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}

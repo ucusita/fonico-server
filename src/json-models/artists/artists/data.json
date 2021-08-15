@@ -1,0 +1,73 @@
+[
+  { "createdAt": "",
+    "imageURL": "https://firebasestorage.googleapis.com/v0/b/uyprontoayuda.appspot.com/o/artists-images%2Fcataratas1.jpg?alt=media&token=ace933bd-ceb0-4926-b782-4a9e6cf71864",
+    "name": "Marcelo",
+    "description": "Un chango de La Rioja.",
+    "location": {
+      "coordinates": [-33.7271887, -66.5902263],
+      "address": "Independência av, 985 - Quintino Cunha, Fortaleza"
+    },
+    "names": [
+      "M",
+      "Ma",
+      "Mar",
+      "Marc",
+      "Marce",
+      "Marcel",
+      "Marcelo"
+    ]
+  },
+  { "createdAt": "",
+    "imageURL": "https://i.ytimg.com/vi/bkfrdaETjUk/hqdefault.jpg",
+    "name": "Padre Eduardo",
+    "description": "Un sacerdote total.",
+    "location": {
+      "coordinates": [-33.7271887, -66.5902263],
+      "address": "Independência av, 985 - Quintino Cunha, Fortaleza"
+    },
+    "names": [
+      "P",
+      "Pa",
+      "Pad",
+      "Padr",
+      "Padre",
+      "Padre ",
+      "Padre E",
+      "Padre Ed",
+      "Padre Edu"
+    ]
+  },
+  { "createdAt": "",
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKMHFdtZA82llOIBekBxEE8oZqcNaJ8eZnmQ&usqp=CAU",
+    "name": "Siervas de Dios",
+    "description": "Bien juveniles y con espíritu cristiano.",
+    "location": {
+      "coordinates": [-33.7271887, -66.5902263],
+      "address": "Independência av, 985 - Quintino Cunha, Fortaleza"
+    },
+    "names": [
+      "S",
+      "Si",
+      "Sie",
+      "Sier",
+      "Sierv",
+      "Sierva"
+    ]
+  },
+  { "createdAt": "",
+    "imageURL": "https://yt3.ggpht.com/ytc/AKedOLTGuQOQFFqmLu6spn6ba7VunbWSy5MOMtwu55KLug=s900-c-k-c0x00ffffff-no-rj",
+    "name": "Hermana Glenda",
+    "description": "Una monjita bien de Dios.",
+    "location": {
+      "coordinates": [-33.7271887, -66.5902263],
+      "address": "Independência av, 985 - Quintino Cunha, Fortaleza"
+    },
+    "names": [
+      "H",
+      "He",
+      "Her",
+      "Herm",
+      "Herma"
+    ]
+  }
+]
