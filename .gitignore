@@ -2,6 +2,9 @@
 .env
 .env.development
 
+environmet.prod.ts
+environmet.ts
+
 ### Node ###
 # Logs
 logs

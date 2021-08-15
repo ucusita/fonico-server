@@ -5,7 +5,9 @@
   "main": "./src/bin/index.js",
   "scripts": {
     "start": "node ./src/bin/www",
-    "dev": "NODE_ENV=development DEBUG=fonico-api:* nodemon ./src/bin/index.js"
+    "config": "ts-node ./src/assets/scripts/setEnv.ts",
+    "dev": "NODE_ENV=development DEBUG=fonico-api:* nodemon ./src/bin/index.js",
+    "pro": "NODE_ENV=production nodemon ./src/bin/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
   "devDependencies": {
     "debug": "^4.1.1",
     "dotenv": "^10.0.0",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "yargs": "^17.1.1"
   }
 }
