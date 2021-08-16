@@ -9,7 +9,7 @@ const MAX_ARTISTS_HOME_SECTION = 20;
 exports.create = async (req, res, next) => {
   const { body } = req;
   body.createdAt = new Date();
-  console.log(body);
+  //console.log(body);
   const artistSchema = Joi.object().keys({
     createdAt: Joi.date().required(),
     imageURL: Joi.string().required(),
@@ -114,7 +114,7 @@ exports.readById = async (req, res, next) => {
 };
 
 exports.readByName = async (req, res, next) => {
-  console.log(req);
+  //console.log(req);
   try {
     console.log("reading ByName");
     //const { name } = req.params;  //Esta porquería no anda
@@ -154,7 +154,7 @@ exports.readByName = async (req, res, next) => {
 exports.update = async (req, res, next) => {
   const { body } = req;
   body.createdAt = new Date();
-  console.log(body);
+  //console.log(body);
   const artistSchema = Joi.object().keys({
     createdAt: Joi.date().required(),
     imageURL: Joi.string().required(),

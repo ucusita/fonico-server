@@ -10,9 +10,9 @@ const _getArtistsSectionsData = async () => {
   const artistsShuffled = shuffleArray(artists);
 
   const popularArtistsShuffled = shuffleArray(artistsShuffled);
-  console.log(popularArtistsShuffled);
+  //console.log(popularArtistsShuffled);
   const popularArtists = popularArtistsShuffled.slice(0, MAX_ITEMS_PER_SECTION);
-  console.log(popularArtists);
+  //console.log(popularArtists);
   return {
     popularArtists
   };

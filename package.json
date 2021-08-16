@@ -5,7 +5,6 @@
   "main": "./src/bin/index.js",
   "scripts": {
     "start": "node ./src/bin/www",
-    "config": "ts-node ./src/assets/scripts/setEnv.ts",
     "dev": "NODE_ENV=development DEBUG=fonico-api:* nodemon ./src/bin/index.js",
     "pro": "NODE_ENV=production nodemon ./src/bin/index.js"
   },
