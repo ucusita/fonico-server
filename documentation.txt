@@ -1,8 +1,9 @@
 Ver documentación en:
-
 https://documenter.getpostman.com/view/10683014/Tzz7QdwJ
 
 
 Ver video demo en:
-
 https://github.com/ucusita/fonico-server/blob/master/media/Fonico%20React.mp4
+
+Ver video en Youtube
+https://youtu.be/bfV1y030RwI
